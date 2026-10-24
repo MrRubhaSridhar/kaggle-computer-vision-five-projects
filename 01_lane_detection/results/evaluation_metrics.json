@@ -1,0 +1,27 @@
+{
+  "dataset": "princekhunt19/road-lane-segmentation-imgs-and-labels",
+  "split": "test",
+  "total_evaluated_samples": 103,
+  "dataset_level_micro_metrics": {
+    "iou": 0.0689,
+    "precision": 0.4583,
+    "recall": 0.075,
+    "f1_score": 0.129,
+    "tp_pixels": 491486,
+    "fp_pixels": 580830,
+    "fn_pixels": 6058499,
+    "tn_pixels": 35057985
+  },
+  "per_image_macro_averages": {
+    "mean_iou": 0.0695,
+    "mean_precision": 0.4584,
+    "mean_recall": 0.0752,
+    "mean_f1_score": 0.129
+  },
+  "departure_warning_distribution": {
+    "IN_LANE": 77,
+    "DEPARTURE_LEFT": 19,
+    "DEPARTURE_RIGHT": 6,
+    "NO_LANES_DETECTED": 1
+  }
+}

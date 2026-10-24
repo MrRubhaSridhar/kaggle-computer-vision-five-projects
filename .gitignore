@@ -1,0 +1,85 @@
+# Virtual Environments
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution / packaging
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Secrets and credentials
+.env
+.env.*
+*.pem
+*.key
+kaggle.json
+credentials.json
+.kaggle/
+
+# Datasets and archives (per-project data folders)
+data/raw/
+data/processed/
+*/data/raw/
+*/data/processed/
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.rar
+*.7z
+
+# Temporary files and caches
+.cache/
+*.cache
+.pytest_cache/
+.coverage
+htmlcov/
+.ipynb_checkpoints/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Large Model Checkpoints (keep compact outputs/results only)
+*.pt
+*.pth
+*.onnx
+*.pkl
+*.h5
+*.tflite
+!*/sample_weights/.gitkeep
+
+# Heavy runs and wandb
+runs/
+*/runs/
+wandb/
+*/wandb/
+
+# Media video files if generated
+*.mp4
+*.avi
+*.mkv
+*.mov

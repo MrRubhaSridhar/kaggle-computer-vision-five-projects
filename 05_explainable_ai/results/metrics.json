@@ -1,0 +1,195 @@
+{
+  "dataset": "ekaakurniawan/the-cifar10-dataset",
+  "split": "test",
+  "total_test_samples": 2000,
+  "overall_metrics": {
+    "accuracy": 0.5315,
+    "macro_precision": 0.5205,
+    "macro_recall": 0.535,
+    "macro_f1_score": 0.5204
+  },
+  "class_wise_metrics": {
+    "airplane": {
+      "precision": 0.5714,
+      "recall": 0.5049,
+      "f1_score": 0.5361,
+      "support": 206
+    },
+    "automobile": {
+      "precision": 0.6649,
+      "recall": 0.6719,
+      "f1_score": 0.6684,
+      "support": 192
+    },
+    "bird": {
+      "precision": 0.3474,
+      "recall": 0.1571,
+      "f1_score": 0.2164,
+      "support": 210
+    },
+    "cat": {
+      "precision": 0.4038,
+      "recall": 0.3182,
+      "f1_score": 0.3559,
+      "support": 198
+    },
+    "deer": {
+      "precision": 0.4519,
+      "recall": 0.4541,
+      "f1_score": 0.453,
+      "support": 207
+    },
+    "dog": {
+      "precision": 0.4286,
+      "recall": 0.5722,
+      "f1_score": 0.4901,
+      "support": 194
+    },
+    "frog": {
+      "precision": 0.5566,
+      "recall": 0.6949,
+      "f1_score": 0.6181,
+      "support": 177
+    },
+    "horse": {
+      "precision": 0.6085,
+      "recall": 0.5583,
+      "f1_score": 0.5823,
+      "support": 206
+    },
+    "ship": {
+      "precision": 0.6078,
+      "recall": 0.7243,
+      "f1_score": 0.661,
+      "support": 214
+    },
+    "truck": {
+      "precision": 0.5643,
+      "recall": 0.6939,
+      "f1_score": 0.6224,
+      "support": 196
+    }
+  },
+  "confusion_matrix": [
+    [
+      104,
+      10,
+      10,
+      1,
+      4,
+      3,
+      2,
+      4,
+      51,
+      17
+    ],
+    [
+      5,
+      129,
+      1,
+      1,
+      1,
+      2,
+      3,
+      4,
+      16,
+      30
+    ],
+    [
+      25,
+      5,
+      33,
+      16,
+      48,
+      41,
+      19,
+      15,
+      7,
+      1
+    ],
+    [
+      11,
+      6,
+      13,
+      63,
+      12,
+      49,
+      22,
+      7,
+      4,
+      11
+    ],
+    [
+      7,
+      4,
+      17,
+      12,
+      94,
+      17,
+      23,
+      22,
+      6,
+      5
+    ],
+    [
+      4,
+      1,
+      10,
+      27,
+      9,
+      111,
+      9,
+      12,
+      5,
+      6
+    ],
+    [
+      1,
+      0,
+      4,
+      13,
+      21,
+      5,
+      123,
+      6,
+      0,
+      4
+    ],
+    [
+      3,
+      0,
+      5,
+      15,
+      18,
+      28,
+      11,
+      115,
+      3,
+      8
+    ],
+    [
+      18,
+      8,
+      2,
+      4,
+      0,
+      3,
+      1,
+      0,
+      155,
+      23
+    ],
+    [
+      4,
+      31,
+      0,
+      4,
+      1,
+      0,
+      8,
+      4,
+      8,
+      136
+    ]
+  ]
+}
